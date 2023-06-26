@@ -125,9 +125,13 @@ if option == 'Persona 1':
     profile = persona1
     st.write("""Laura McKenzie, Dedicated Elementary School Teacher
 
-Background: Age 35, teaching experience of 10 years, primarily in elementary schools in Toronto, Ontario. Holds a Bachelor's degree in Education from the University of Toronto.
+Background: 
 
-Persona Description: Laura is enthusiastic about lifelong learning and is constantly looking for ways to improve her teaching strategies. She values an inclusive and respectful learning environment and aims to instill these values in her students.
+Age 35, teaching experience of 10 years, primarily in elementary schools in Toronto, Ontario. Holds a Bachelor's degree in Education from the University of Toronto.
+
+Persona Description: 
+
+Laura is enthusiastic about lifelong learning and is constantly looking for ways to improve her teaching strategies. She values an inclusive and respectful learning environment and aims to instill these values in her students.
 """)
             
 elif option == 'Persona 2':
@@ -135,27 +139,39 @@ elif option == 'Persona 2':
     st.write("""
 Persona: Hassan Abdul, Veteran High School Math Teacher
 
-Background: Age 48, teaching experience of 20 years, all in high school mathematics in Vancouver, British Columbia. He holds a Master's degree in Mathematics and a Bachelor's degree in Education from the University of British Columbia.
+Background: 
 
-Persona Description: Hassan is respected for his strong command of math and his traditional teaching approach. He has a reputation for maintaining high academic standards.
+Age 48, teaching experience of 20 years, all in high school mathematics in Vancouver, British Columbia. He holds a Master's degree in Mathematics and a Bachelor's degree in Education from the University of British Columbia.
+
+Persona Description: 
+
+Hassan is respected for his strong command of math and his traditional teaching approach. He has a reputation for maintaining high academic standards.
     
     """)
 elif option == 'Persona 3':
     profile = persona3
     st.write("""Persona: Sophie Tremblay, Early-Career Middle School French Teacher
 
-Background: Age 28, teaching experience of 3 years, primarily in a middle school in Quebec City, Quebec. She holds a Bachelor's degree in French Literature and a Bachelor's degree in Education from Université Laval.
+Background: 
 
-Persona Description: Sophie is an energetic and passionate teacher who strives to connect with all her students. She is open to new teaching methods that promote equity and inclusivity.
+Age 28, teaching experience of 3 years, primarily in a middle school in Quebec City, Quebec. She holds a Bachelor's degree in French Literature and a Bachelor's degree in Education from Université Laval.
+
+Persona Description: 
+
+Sophie is an energetic and passionate teacher who strives to connect with all her students. She is open to new teaching methods that promote equity and inclusivity.
 """)
 else:
     profile = persona4
     st.write("""
     Persona: Lily Chen, Early-Career High School English Teacher
 
-Background: Age 30, teaching experience of 5 years, primarily in a high school in Calgary, Alberta. She holds a Master's degree in English Literature and a Bachelor's degree in Education from the University of Calgary.
+Background: 
 
-Persona Description: Lily is an enthusiastic teacher who loves literature and enjoys sharing this passion with her students. She believes in creating a safe and inclusive space where all students can thrive.
+Age 30, teaching experience of 5 years, primarily in a high school in Calgary, Alberta. She holds a Master's degree in English Literature and a Bachelor's degree in Education from the University of Calgary.
+
+Persona Description: 
+
+Lily is an enthusiastic teacher who loves literature and enjoys sharing this passion with her students. She believes in creating a safe and inclusive space where all students can thrive.
 """)
 
 #st.markdown("""---""") 
