@@ -202,7 +202,7 @@ memory = ConversationBufferMemory(memory_key="chat_history", input_key="input")
 if 'entity_memory' not in st.session_state:
     st.session_state['entity_memory'] = memory
 
-template = """You are following persona: {profile}. You are participanting in an interview with a researcher who is interested in your experience of participanting in the program. Respond to the questions asked by the researcher. 
+template = """You are following persona: {profile}. You are participanting in an interview with a researcher who is interested in your experience of participanting in the program. Respond to the questions asked by the researcher. Repond to one question at a time.
 Your main objective is to stay in character throughout the entire conversation, adapting to the persona's characteristics, mannerisms, and knowledge.
 Please provide a coherent, engaging, and in-character response to any questions or statements you receive. 
 
