@@ -57,7 +57,7 @@ def main():
     """)
 
     st.markdown("___")
-    st.info("This application, version dated June 14th, was developed by [Soroush Sabbaghan](ssabbagh@ucalgary.ca). It is powered by: [Streamlit](https://streamlit.io/), [Langchian](https://python.langchain.com/en/latest/index.html), and [ChatGPT API](https://openai.com/product), with the aim of supporting educational objectives. This work is released under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).")
+    st.info("This application, version dated June 14th, was developed by [Soroush Sabbaghan](ssabbagh@ucalgary.ca). It is powered by: [Streamlit](https://streamlit.io/), [Langchian](https://python.langchain.com/en/latest/index.html), and [GPT-4 API](https://openai.com/product), with the aim of supporting educational objectives. This work is released under a This work has the following license: [NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0).")
 
 
 if __name__ == '__main__':
